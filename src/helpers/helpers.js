@@ -1,4 +1,4 @@
-export const getMonth = () => {
+export const getDate = () => {
     let month;
     const currentDate = new Date();
     switch (currentDate.getMonth()) {
@@ -41,6 +41,6 @@ export const getMonth = () => {
       default:
         break;
     }
-    return `${month}, ${currentDate.getFullYear()}`; 
+    return `${currentDate.getDate()} ${month}, ${currentDate.getFullYear()}`; 
 }
 

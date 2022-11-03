@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
             'yellowtail': ['Yellowtail', 'cursive'],
+            'alice': ['Alice', 'serif']
       }
     },
   },

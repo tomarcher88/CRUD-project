@@ -6,4 +6,10 @@ To include:
 - Todo List
 - Gratitude's
 - Celebrations
-- Public Holidays - [API](https://www.gov.uk/bank-holidays.json)
+
+### Takeaways
+
+During this project I learnt a couple of things.
+
+- Context should be used for global variables and not just all parts of a project that are used in multiple places.
+- I need to think more about how I can make components as reusable as possible. Ideally with no unique hardcoded elements.
